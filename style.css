@@ -1,0 +1,257 @@
+/*************************************
+
+Template Name: ReflexionBD - Personal Resume/CV/Portfolio HTML Template 
+Author: shazzadul
+Version: 1.0
+Design and Developed by: shazzadul
+
+****************************************/
+
+
+/*import google font*/
+@import url(https://fonts.googleapis.com/css?family=Poppins:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=PT+Serif:400,700);
+.wrapper {
+  margin: 0;
+  padding: 0 20px; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Poppins;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding: 10px 0; }
+
+h1 {
+  font: normal 40px/1.5 "Open Sans", sans-serif;
+  color: #F44336;
+  text-align: center;
+  font-size: 30px; }
+
+h2, h3, h4, h5, h6 {
+  font: normal 40px/1.5 "Open Sans", sans-serif;
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  text-align: center; }
+
+p {
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1.7em; }
+
+section h2.section-heading {
+  font-size: 40px;
+  font-weight: 900;
+  text-transform: uppercase; }
+
+section h3.section-subheading {
+  font-size: 16px;
+  padding: 20px 5px; }
+
+.grid-content {
+  margin-top: 15px;
+  padding: 25px 0;
+  padding: 5px;
+  background-color: #ddd; }
+
+.grid-content:hover {
+  background-color: #fff;
+  box-shadow: 1px 2px 5px #ddd;
+  transition: all 0.3s ease 0s; }
+
+.text-muted {
+  color: #aaa; }
+
+/*================================================
+              HEADER SECTION
+==================================================*/
+
+.navbar {
+  background-color: #fff;
+  border-radius: 0;
+  margin-bottom: 0; }
+
+.menu {
+  background: #fff; }
+
+.navbar {
+  background-color: transparent;
+  border: none;
+  text-transform: uppercase; }
+
+header.masthead {
+  background-attachment: fixed;
+  background-blend-mode: multiply;
+  background-image: url("assets/img/header-bg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  height: 100vh;
+  text-align: center;
+  width: 100%;
+  Background-color: rgba(0, 0, 0, 0.5); }
+
+header.masthead .intro-text {
+  padding-bottom: 200px;
+  padding-top: 380px; }
+
+header.masthead .intro-text .intro-lead {
+  font-size: 40px;
+  font-style: italic;
+  line-height: 40px;
+  margin-bottom: 25px; }
+
+header.masthead .intro-text .intro-heading {
+  font-size: 75px;
+  font-weight: 700;
+  line-height: 75px;
+  margin-bottom: 50px;
+  text-transform: uppercase; }
+
+.btn-XL {
+  background: #ddd none repeat scroll 0 0;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 20px 40px;
+  text-transform: uppercase; }
+
+/*================================================
+              SERVICE SECTION
+==================================================*/
+
+.services-section {
+  background-color: #fff;
+  padding: 150px 0;
+  margin: 2px 0 0; }
+
+.fa-stack {
+  background: #fff;
+  border-radius: 50%; }
+
+section h4.service-heading, .team-heading {
+  font-size: 24px;
+  margin: 15px 0;
+  text-transform: capitalize; }
+
+/*================================================
+             4. TEAM SECTION
+==================================================*/
+
+.team-section {
+  background-color: #fff;
+  padding: 150px 0;
+  margin: 2px 0 0; }
+
+section h4.team-heading {
+  font-size: 24px;
+  margin: 15px 0;
+  text-transform: capitalize; }
+
+.team-heading {
+  margin-bottom: 0; }
+
+.team-member {
+  text-align: Center; }
+
+.social-button {
+  margin-top: 10px; }
+
+p.team-subheading {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-weight: 600;
+  text-transform: capitalize; }
+
+ul.social-buttons li a {
+  background-color: #000;
+  border-radius: 100%;
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  height: 40px;
+  line-height: 40px;
+  outline: 0 none;
+  transition: all 0.3s ease 0s;
+  width: 40px;
+  margin-top: 10px; }
+
+ul.social-buttons li a:hover {
+  background-color: #ddd; }
+
+/*================================================
+             4. PORTFOLIO SECTION
+==================================================*/
+
+.works-section {
+  background-color: #ddd;
+  padding: 150px 0;
+  margin: 0; }
+
+/*================================================
+             4. ABOUT SECTION
+==================================================*/
+
+.about-section {
+  background-color: #ddd;
+  padding: 150px 0;
+  margin: 0; }
+
+.about-text button {
+  padding: 12px 27px;
+  margin-top: 20px;
+  border: 0; }
+/*================================================
+             4. Blog SECTION
+==================================================*/
+
+.blog-section {
+  background-color: #000;
+  padding: 150px 0;
+  margin: 0; }
+
+section h4.blog-heading {
+  font-size: 24px;
+  margin: 15px 0;
+  text-transform: capitalize; }
+
+p.blog-subheading {
+  padding: 10px;
+  margin: 0;
+  text-align: left;
+  font-weight: 100;
+  text-transform: capitalize; }
+
+
+
+
+/*================================================
+             4. CONTACT SECTION
+==================================================*/
+
+.contact-section {
+  background-color: #ddd;
+  padding: 150px 0;
+  margin: 0; }
+
+section#contact .form-group textarea.form-control {
+  height: 236px; }
+
+section#contact .form-group input.form-control {
+  height: auto; }
+
+section#contact .form-group input, section#contact .form-group textarea {
+  padding: 23px; }
+
+/*================================================
+             4. FOOTER SECTION
+==================================================*/
+
+footer {
+  padding: 25px 0;
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,15 @@
+h1 {
+  font: normal 40px/1.5 "Open Sans", sans-serif;
+  color: #F44336;
+  text-align: center; }
+
+h2, h3 {
+  font: normal 40px/1.5 "Open Sans", sans-serif;
+  font-size: 12px; }
+
+p {
+  font-color: #F44336;
+  font-size: 12px;
+  text-align: justify; }
+
+/*# sourceMappingURL=style.css.map */

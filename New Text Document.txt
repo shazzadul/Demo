@@ -1,0 +1,1 @@
+sass --watch D:\sass-project\scss:D:\sass-project
